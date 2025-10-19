@@ -1,2 +1,6 @@
 alias cat='batcat'
 alias cls='clear'
+alias wakeuphp='wakeonlan b4:b5:2f:bc:2c:5c'
+alias powersave='sudo cpupower frequency-set -g powersave'
+alias powernormal='sudo cpupower frequency-set -g schedutil'
+alias checkpower=' cpupower frequency-info | grep "The governor"'
